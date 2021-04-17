@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Manjari', sans-serif;
+}
+/* #2F195F */
+body{
+    background-color: rgb(88, 88, 88);
+}
+#container{
+    width: 80%;
+    margin: auto;
+    background-color: #F7F7F7;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    font-size: 81px;
+    color: white;
+    padding: 5rem 1.5rem 0 1.5rem;
+    background-color: #2f195f;
+    border-radius: 5px;
+}
+header>div{
+    padding-top: 3rem;
+}
+header h3{
+    font-size: 36px;
+}
+header h4{
+    font-size: 29px;
+    color: #2F195F;
+}
+header h4>span{
+    font-size: 58px;
+}
+.intro-text{
+    padding-top: 2rem;
+}
+.intro-text h1{
+    font-size: 57px;
+    margin-bottom: 2rem;
+}
+.intro-text h1 span{
+    color: white;
+    background-color: #2f195f;
+    padding-bottom: -2rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    border-radius: 5px;
+}
+.intro-text p{
+    font-size: 25px;
+    line-height:35px;
+    margin-bottom: 1.5rem;
+}
+.personal-info{
+    font-size: 24px ;
+    font-weight: 400;
+}
+.personal-info dt{
+    float: left;
+    padding-right: 1rem;
+}
+.personal-info dd{
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+}
+.personal-info dd a{
+    text-decoration: none;
+    color: black;
+}
+.experience,
+.education,
+.tech,
+.learn,
+.proj,
+.foot-div{ 
+    clear: both;
+    margin-top: 1rem;
+}
+.experience h2,
+.education h2,
+.tech h2,
+.learn h2,
+.proj h2,
+.foot-div h2
+{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.sect{
+    font-size: 32px;
+    padding-top: 1rem;
+    font-weight: 700;
+    border-bottom:5px solid;
+    text-transform: uppercase;
+}
+.txt-col{
+    font-size: 34px;
+    background-color: #2f195f;
+    color: white;
+    padding: .9rem 0.5rem ;
+    border-radius: 5px;
+    margin-right: .5rem;
+}
+.flx{
+    display: flex;
+    justify-content: flex-start;
+}
+.edu-dv{
+    margin-bottom: 1rem;
+}
+.exp-dv-sec1,
+.edu-dv-sec1{
+    font-size: 24px;
+    font-weight: normal;
+    margin-right:8rem;
+    width: 22%;
+}
+.exp-dv-sec2{
+    width: 44%;
+    margin-bottom: 1rem;
+}
+.exp-dv-sec2 h3,
+.edu-dv-sec2 h3{
+    font-size: 24px;
+}
+.col{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2f195f;
+}
+.exp-dv-sec2 p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.edu-dv-sec2 p{
+    font-size: 22px;
+    opacity: 55%;
+    padding-top: .5rem;
+}
+.lst{
+    width:58%;
+}
+.edu-dv-sec2 h4{
+    font-size: 22px;
+    opacity: 90%;
+    padding-top: .5rem;
+}
+.j{
+    margin-left: 4rem;
+}
+.skills-dv1,
+.skills-dv2{
+    width: 50%;
+}
+.skills-dv1 h4{
+    font-size: 26px;
+    padding-top: 1rem;
+    width: 8rem;
+}
+.skills-dv1 > div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 3rem;
+}
+.skills-dv2 > div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.skills-dv2 h4{
+    font-size: 26px;
+    padding-top: 1rem;
+    width: 15rem;
+}
+.sk-dv{
+    border: 1px solid;
+    width: 70%;
+    height: 1rem;
+}
+.skill{
+    background-color: #2f195f;
+    height: 100%;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width:80%;
+}
+.js{
+    width: 85%;
+}
+.react{
+    width: 80%;
+}
+.angular{
+    width: 50%;
+}
+.vue{
+    width: 60%;
+}
+.jquery{
+    width: 60%;
+}
+.git{
+    width: 55%;
+}
+.learn-sk{
+    list-style: none;
+    font-size:26px ;
+    margin-left: 4rem;
+}
+.learn-sk li{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 700;
+}
+.proj-div{
+    margin-left: 4rem;
+}
+.proj-div dt{
+    font-size: 30px;
+}
+.proj-div dd{
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+.proj-div dd:last-of-type{
+    padding-bottom: 0;
+}
+.proj-div dd a{
+    text-decoration: none;
+    color: #2f195f;
+}
+.attitude{
+    width: 50%;
+}
+.foot-div h4{
+    margin-left: 4rem;
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+.interests{
+
+    width: 40%;
+}
+.hob{
+    align-content: center;
+    align-items: center;
+    padding-left: 4rem;
+    display: flex;
+    height: 3rem;
+}
+.hob img{
+    width: 3rem;
+    margin: 0;
+}
+.hob h4{
+    padding-top: 1.5rem;
+}
